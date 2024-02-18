@@ -13,7 +13,7 @@ public class test {
             this.rear = -1;
             this.size = 0;
         }
-
+        
         public void addFirst(int element) {
             if (isFull()) {
                 System.out.println("queue is full");

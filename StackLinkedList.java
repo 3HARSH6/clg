@@ -16,6 +16,8 @@ public class StackLinkedList {
         top = newNode;
     }
 
+
+
     public int pop() {
         if (isEmpty()) {
             return Integer.MIN_VALUE;
